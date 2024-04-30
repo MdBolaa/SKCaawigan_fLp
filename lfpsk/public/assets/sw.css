@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body{
+    background-color: skyblue;
+    color: red;
+    background-size: cover;
+    background-position: center;   
+    font-family: "Times New Roman", Times, serif;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:red;
+    padding: 5px, 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-weight: bold;
+}
+
+.logo img{
+    float: left;
+    width: 125px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+section {
+    margin:50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-block-end: 100px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+p.indent {
+    text-indent: 30px;
+}
+
+h3 {
+    color:crimson;
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+    font-weight: bolder; 
+    text-align: center;
+    margin-top:30px;
+    font-size: 40px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.container p {
+    margin: 0;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: left;
+}
